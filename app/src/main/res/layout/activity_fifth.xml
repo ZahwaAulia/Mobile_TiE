@@ -46,7 +46,6 @@
                 android:backgroundTint="#FBC02D"
                 app:icon="@drawable/ic_link"
                 app:iconSize="30dp"
-                defs
                 app:iconGravity="textStart"/>
 
 
