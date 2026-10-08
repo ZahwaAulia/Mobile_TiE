@@ -15,14 +15,8 @@
         android:theme="@style/Theme.Zahwa3TIE">
         <activity
             android:name=".AuthActivity"
-            android:exported="true"
-            android:windowSoftInputMode="adjustResize">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize"/>
         <activity
             android:name=".Pertemuan_2.SecoundActivity"
             android:exported="true"
@@ -51,7 +45,16 @@
             android:name=".MainActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
