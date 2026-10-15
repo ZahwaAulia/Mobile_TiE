@@ -6,8 +6,9 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.zahwa_3tie.Pertemuan_4.FourthActivity
-import com.example.zahwa_3tie.Pertemuan_5.fifthActivity
+import com.example.zahwa_3tie.Home.Pertemuan_4.FourthActivity
+import com.example.zahwa_3tie.Home.Pertemuan_5.fifthActivity
+import com.example.zahwa_3tie.Home.Pertemuan_7.SevenActivity
 import com.example.zahwa_3tie.databinding.ActivityMainBinding
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 
@@ -41,6 +42,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this@MainActivity, fifthActivity::class.java)
             startActivity(intent)
 
+        }
+        binding.btnToSeventh.setOnClickListener {
+            val intent = Intent(this@MainActivity, SevenActivity::class.java)
+            startActivity(intent)
         }
         binding.btnLogout.setOnClickListener {
             MaterialAlertDialogBuilder(this)

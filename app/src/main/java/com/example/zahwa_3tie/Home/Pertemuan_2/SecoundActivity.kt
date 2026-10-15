@@ -1,4 +1,4 @@
-package com.example.zahwa_3tie.Pertemuan_2
+package com.example.zahwa_3tie.Home.Pertemuan_2
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
