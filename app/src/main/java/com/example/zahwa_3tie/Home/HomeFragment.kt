@@ -12,9 +12,11 @@ import com.example.zahwa_3tie.AuthActivity
 import com.example.zahwa_3tie.Home.Pertemuan_4.FourthActivity
 import com.example.zahwa_3tie.Home.Pertemuan_5.fifthActivity
 import com.example.zahwa_3tie.Home.Pertemuan_7.SevenActivity
+import com.example.zahwa_3tie.Home.Pertemuan_9.ninthActivity
 import com.example.zahwa_3tie.R
 import com.example.zahwa_3tie.databinding.FragmentHomeBinding
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
+import kotlin.jvm.java
 
 
 class HomeFragment : Fragment() {
@@ -53,6 +55,10 @@ class HomeFragment : Fragment() {
         }
         binding.btnToSeventh.setOnClickListener {
             val intent = Intent(requireContext(), SevenActivity::class.java)
+            startActivity(intent)
+        }
+        binding.btnToninth.setOnClickListener {
+            val intent = Intent(requireContext(), ninthActivity::class.java)
             startActivity(intent)
         }
         binding.btnLogout.setOnClickListener {
