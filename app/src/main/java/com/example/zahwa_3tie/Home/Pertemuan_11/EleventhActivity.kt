@@ -63,6 +63,15 @@ class EleventhActivity : AppCompatActivity() {
                 badge.isVisible = true
                 badge.number = 99
             }
+            2 -> {
+                tab.text = "Produk"
+                //Tambah Icon
+                tab.icon = ContextCompat.getDrawable(  this, R.drawable.ic_list)
+                //Tambah Badge dengan nomor
+                val badge = tab.getOrCreateBadge()
+                badge.isVisible = false
+                badge.number = 99
+            }
         }
     }.attach()
 }
