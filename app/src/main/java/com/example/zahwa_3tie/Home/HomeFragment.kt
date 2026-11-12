@@ -9,6 +9,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import com.example.zahwa_3tie.AuthActivity
+import com.example.zahwa_3tie.Home.Pertemuan_11.EleventhActivity
 import com.example.zahwa_3tie.Home.Pertemuan_4.FourthActivity
 import com.example.zahwa_3tie.Home.Pertemuan_5.fifthActivity
 import com.example.zahwa_3tie.Home.Pertemuan_7.SevenActivity
@@ -50,6 +51,11 @@ class HomeFragment : Fragment() {
         }
         binding.btntofifth.setOnClickListener {
             val intent = Intent(requireContext(), fifthActivity::class.java)
+            startActivity(intent)
+
+        }
+        binding.btneleventh.setOnClickListener {
+            val intent = Intent(requireContext(), EleventhActivity::class.java)
             startActivity(intent)
 
         }
