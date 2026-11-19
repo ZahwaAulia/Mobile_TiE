@@ -1,5 +1,6 @@
 package com.example.zahwa_3tie.Home.Photo
 
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -17,6 +18,7 @@ class PhotoAdapter(private val items: List<PhotoModel>) : RecyclerView.Adapter<P
     }
 
     override fun onBindViewHolder(holder: PhotoViewHolder, position: Int) {
+        Log.e("RESPONSE", items.toString())
         val item = items[position]
         holder.binding.tvAuthor.text = item.author
         Glide.with(holder.itemView.context)
