@@ -1,4 +1,4 @@
-package com.example.zahwa_3tie.Home.data.model
+package com.example.zahwa_3tie.data.model
 
 data class PhotoModel(
     val id: String,

@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.zahwa_3tie.Home.data.model.PhotoModel
+import com.example.zahwa_3tie.data.model.PhotoModel
 import com.example.zahwa_3tie.databinding.ItemPhotoBinding
 
 class PhotoAdapter(private val items: List<PhotoModel>) : RecyclerView.Adapter<PhotoAdapter.PhotoViewHolder>() {

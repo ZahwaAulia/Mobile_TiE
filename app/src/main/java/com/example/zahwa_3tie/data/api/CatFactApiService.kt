@@ -1,6 +1,6 @@
 package com.example.zahwa_3tie.Home.api
 
-import com.example.zahwa_3tie.Home.data.model.CatFactModel
+import com.example.zahwa_3tie.data.model.CatFactModel
 import retrofit2.http.GET
 
 interface CatFactApiService {

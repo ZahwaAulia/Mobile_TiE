@@ -1,7 +1,7 @@
 package com.example.zahwa_3tie
 
+import com.example.zahwa_3tie.Note.NoteFragment
 import android.os.Bundle
-import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -10,7 +10,6 @@ import androidx.fragment.app.Fragment
 import com.example.zahwa_3tie.Home.HomeFragment
 import com.example.zahwa_3tie.Message.MessageFragment
 import com.example.zahwa_3tie.More.MoreFragment
-import com.example.zahwa_3tie.databinding.ActivityAuthBinding
 import com.example.zahwa_3tie.databinding.ActivityBaseBinding
 
 class BaseActivity : AppCompatActivity() {
@@ -35,6 +34,10 @@ class BaseActivity : AppCompatActivity() {
                 }
                 R.id.message -> {
                     replaceFragment(MessageFragment())
+                    true
+                }
+                R.id.note -> {
+                    replaceFragment(NoteFragment())
                     true
                 }
                 R.id.more -> {

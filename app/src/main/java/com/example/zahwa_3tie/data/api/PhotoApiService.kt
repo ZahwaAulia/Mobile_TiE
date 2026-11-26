@@ -1,6 +1,6 @@
-package com.example.zahwa_3tie.Home.data.api
+package com.example.zahwa_3tie.data.api
 
-import com.example.zahwa_3tie.Home.data.model.PhotoModel
+import com.example.zahwa_3tie.data.model.PhotoModel
 import retrofit2.http.GET
 
 interface PhotoApiService {

@@ -1,4 +1,4 @@
-package com.example.zahwa_3tie.Home.data.api
+package com.example.zahwa_3tie.data.api
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

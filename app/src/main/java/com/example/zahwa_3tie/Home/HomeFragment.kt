@@ -19,8 +19,7 @@ import com.example.zahwa_3tie.Home.Pertemuan_7.SevenActivity
 import com.example.zahwa_3tie.Home.Pertemuan_9.ninthActivity
 import com.example.zahwa_3tie.Home.Photo.PhotoAdapter
 import com.example.zahwa_3tie.Home.api.CatFactApiClient
-import com.example.zahwa_3tie.Home.data.api.PhotoApiClient
-import com.example.zahwa_3tie.R
+import com.example.zahwa_3tie.data.api.PhotoApiClient
 import com.example.zahwa_3tie.databinding.FragmentHomeBinding
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import kotlinx.coroutines.launch
